@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Pytest and testing cache
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Django-related
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask-related
+instance/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+
+# Enka
+.enka_py
